@@ -1,0 +1,48 @@
+div{
+    border: 2px solid black;
+    box-shadow: 6px 6px 2px 2px black;
+    margin: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: rgb(88, 86, 86);
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 85px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(133, 131, 131);
+}
+h3
+{
+    font-size: large;
+    font-style: inherit;
+}
+
+p{
+    color: rgb(177, 175, 175);
+    font-size: small;
+}
+
+h5{
+    margin-top: 10px;
+}

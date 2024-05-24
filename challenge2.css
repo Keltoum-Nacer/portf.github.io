@@ -1,0 +1,63 @@
+
+img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: azure;
+}
+
+div{
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    margin: 470px;
+    margin-top: 200px;
+    padding: 22px;
+   position: relative;
+   background-color: rgb(81, 77, 81);
+}
+
+button{
+    width: 218px;
+    height: 30px;
+    background-color: rgb(173, 160, 177);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 15%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    margin-top: 84px;
+    margin-left: 44px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+
+.local
+{
+    font-size: small;
+    margin-left: 70px;
+    color: rgb(63, 49, 75);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio{
+    margin-left: 80px;
+    color: white;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}

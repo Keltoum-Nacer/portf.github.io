@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" async></script>
+</head>
+<body>
+    <nav class="circle">
+        <img src="fleche.png" alt="fl" id="fleche">
+        <div id="call">
+            <a href="https://github.com/Keltoum-Nacer"> <img src="./git.png" alt="github"></a>
+             <a href="https://www.linkedin.com/in/keltoum-nacer-5b1465263/"><img src="./in.png" alt="linkden"></a>
+             <img src="tele.jpg" alt="tele">
+         </div>
+    </nav>
+    <header>
+        <li class="logo"><a href="#intro" onclick="goToSection('intro')">KN</a></li>
+       
+      
+    
+            <ul>
+            <li id ="a"><a href="#about" onclick="goToSection('about')">About me</a></li>
+            <li id = "p"><a href="#proj" onclick="goToSection('proj')">Projects</a></li>
+            <li id = "c"><a href="#cont" onclick="goToSection('cont')">Contact</a></li>
+        </ul>
+        
+    </header>
+    <div id="intro">
+        <h1 class="intro">Nice to meet you! <br>
+            I'm Nacer Keltoum <br>
+            Welcome to my portfolio.</h1>
+        </div>
+      
+    <main>
+        <section id="about">
+        <h2>About me</h2>
+        <p>Hey there! I'm Nacer Keltoum, a 1337 student with an insatiable passion for web development. <br>
+            I dive into the world of coding with enthusiasm, constantly seeking new challenges and opportunities <br>
+            to expand my skills. <br>
+            As a budding web developer, I'm fueled by the ever-evolving nature of technology and the endless <br>
+            possibilities it offers. From crafting elegant user interfaces to solving complex backend puzzles,<br>
+            I thrive on the creative and technical aspects of building immersive web experiences. <br>            
+            Beyond the lines of code, you'll find me immersed in the vibrant community of developers, <br>
+            always eager to learn from others and share my own insights. Whether I'm tinkering with <br>
+            the latest frameworks or exploring innovative design trends, I approach each project with a dedication <br>
+            to craftsmanship and a drive to push the boundaries of what's possible on the web.
+        </p> 
+    </section>
+    <section id="proj">
+        <div class="project">
+            <h3>Project 1</h3>
+            <div class="item">
+            <a href="challenge1.html">
+            <img src="ch1.png" alt="pr1" class="projet">
+            </a>
+            </div>
+            <p>Html ..Css</p>
+       </div>
+       <div class="project">
+            <h3>Project 2</h3>
+            <div class="item">
+                <a href="challenge2.html">
+                <img src="ch2.png" alt="pr2" class="projet">
+                </a>
+            </div>
+            <p>Html ..Css</p>
+        </div>
+    <div class="project">
+            <h3>Projet 3</h3>
+            <div class="item">
+                <a href="challenge3.html">
+                <img src="ch3.png" alt="pr3" class="projet">
+                </a>
+            </div>
+            <p>Html ..Css</p>
+        </div>
+    </section>
+    <section id = "cont">
+        <h2>Contact me</h2>
+        <form action="submit_msg">
+            <label for="name">Your Name:</label>
+            <input type="text" id = "name" name="name" required> <br> <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id = "email" name = "email" required> <br><br>
+            <label for="msg">Your Message:</label>
+            <textarea name="msg" id="msg" required></textarea> <br><br>
+            <button>SEND MESSAGE</button>
+        </form>
+    </section>      
+    </main>
+</body>
+</html>

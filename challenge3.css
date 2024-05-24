@@ -1,0 +1,79 @@
+#card{
+    border:none;
+    border-radius: 20px;
+    width: 700px;
+    height: 1400px;
+    margin: 200px;
+    padding: 40px;
+    background-color: white;
+}
+body{
+   
+    background-color: rgb(215, 215, 185);
+}
+img{
+    width: 700px;
+    height: 450px;
+    border-radius: 15px;
+}
+p{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(81, 81, 81);
+}
+.prepa{
+    border: none;
+    width: 650px;
+    height: 110px;
+    background-color: #f5f3e2;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+h4{
+    color: #c1bd99;
+    font-family: sans-serif;
+}
+li{
+    color:  rgb(104, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 1.7;
+    padding-left: 10px;
+}
+li::marker{
+    color: #a9a15b;
+}
+h3{
+    color: #a9a15b;
+}
+.instruc{
+    border-top: 1px solid rgb(201, 189, 189);
+}
+.nutr{
+    border-top: 1px solid rgb(201, 189, 189);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    font-size: small;
+    padding-left: 20px;
+    padding: 10px;
+    color:rgb(104, 101, 101);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr{
+    border-bottom: 1px solid rgb(201, 189, 189);
+
+}
+#col{
+    padding-left: 290px;
+    color: #a9a15b;
+}
+#last{
+    border: none;
+}
